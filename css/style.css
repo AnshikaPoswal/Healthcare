@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
-:root{
-    --green:#164da0d2;
-    --black:#444;
-    --light-color:rgb(119, 119, 119);
-    /* --box-shadow:.5rem .5rem 0 rgba(22, 93, 160, 0.2); */
-    /* --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2); */
-    --border:.2rem solid var(--green);
-}
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -37,16 +29,15 @@ section:nth-child(even){
 .heading{
     text-align: center;
     padding-bottom: 2rem;
-    text-shadow: var(--text-shadow);
     text-transform: uppercase;
-    color:var(--black);
+    color:#444;
     font-size: 5rem;
     letter-spacing: .4rem;
 }
 
 .heading span{
     text-transform: uppercase;
-    color:var(--green);
+    color:#164da0d2;
 }
 
 .btn{
@@ -54,10 +45,9 @@ section:nth-child(even){
     margin-top: 1rem;
     padding: .5rem;
     padding-left: 1rem;
-    border:var(--border);
+    border:.2rem solid #164da0d2;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    color:var(--green);
+    color:#164da0d2;
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
@@ -66,7 +56,7 @@ section:nth-child(even){
 .btn span{
     padding:.7rem 1rem;
     border-radius: .5rem;
-    background: var(--green);
+    background: #164da0d2;
     color:#fff;
     margin-left: .5rem;
 }
@@ -85,28 +75,28 @@ section:nth-child(even){
 
 .header .logo{
     font-size: 2.5rem;
-    color: var(--black);
+    color: #444;
 }
 
 .header .logo i{
-    color: var(--green);
+    color: #164da0d2;
 }
 
 .header .navbar a{
     font-size: 1.7rem;
-    color: var(--light-color);
+    color: rgb(119, 119, 119);
     margin-left: 2rem;
 }
 
 .header .navbar a:hover{
-    color: var(--green);
+    color: #164da0d2;
 }
 
 #menu-btn{
     font-size: 2.5rem;
     border-radius: .5rem;
     background: #eee;
-    color:var(--green);
+    color:#164da0d2;
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
@@ -134,14 +124,13 @@ section:nth-child(even){
 
 .home .content h3{
     font-size: 4.5rem;
-    color:var(--black);
+    color:#444;
     line-height: 1.8;
-    text-shadow: var(--text-shadow);
 }
 
 .home .content p{
     font-size: 1.7rem;
-    color:var(--light-color);
+    color:rgb(119, 119, 119);
     line-height: 1.8;
     padding: 1rem 0;
 }
@@ -155,8 +144,7 @@ section:nth-child(even){
 }
 
 .icons-container .icons{
-    border:var(--border);
-    box-shadow: var(--box-shadow);
+    border:.2rem solid #164da0d2;
     border-radius: .5rem;
     text-align: center;
     padding: 2.5rem;
@@ -164,20 +152,19 @@ section:nth-child(even){
 
 .icons-container .icons i{
     font-size: 4.5rem;
-    color:var(--green);
+    color:#164da0d2;
     padding-bottom: .7rem;
 }
 
 .icons-container .icons h3{
     font-size: 4.5rem;
-    color:var(--black);
+    color:#444;
     padding: .5rem 0;
-    text-shadow: var(--text-shadow);
 }
 
 .icons-container .icons p{
     font-size: 1.7rem;
-    color:var(--light-color);
+    color:rgb(119, 119, 119);
 }
 
 .services .box-container{
@@ -189,25 +176,24 @@ section:nth-child(even){
 .services .box-container .box{
     background:#fff;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    border:var(--border);
+    border:.2rem solid #164da0d2;
     padding: 2.5rem;
 }
 
 .services .box-container .box i{
-    color: var(--green);
+    color: #164da0d2;
     font-size: 5rem;
     padding-bottom: .5rem;
 }
 
 .services .box-container .box h3{
-    color: var(--black);
+    color: #444;
     font-size: 2.5rem;
     padding:1rem 0;
 }
 
 .services .box-container .box p{
-    color: var(--light-color);
+    color: rgb(119, 119, 119);
     font-size: 1.4rem;
     line-height: 2;
 }
@@ -232,14 +218,13 @@ section:nth-child(even){
 }
 
 .about .row .content h3{
-    color: var(--black);
-    text-shadow: var(--text-shadow);
+    color: #444;
     font-size: 4rem;
     line-height: 1.8;
 }
 
 .about .row .content p{
-    color: var(--light-color);
+    color: rgb(119, 119, 119);
     padding:1rem 0;
     font-size: 1.5rem;
     line-height: 1.8;
@@ -255,26 +240,25 @@ section:nth-child(even){
     text-align: center;
     background:#fff;
     border-radius: .5rem;
-    border:var(--border);
-    box-shadow: var(--box-shadow);
+    border:.2rem solid #164da0d2;
     padding:2rem;
 }
 
 .doctors .box-container .box img{
     height: 20rem;
-    border:var(--border);
+    border:.2rem solid #164da0d2;
     border-radius: .5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .doctors .box-container .box h3{
-    color:var(--black);
+    color:#444;
     font-size: 2.5rem;
 }
 
 .doctors .box-container .box span{
-    color:var(--green);
+    color:#164da0d2;
     font-size: 1.5rem;
 }
 
@@ -287,11 +271,12 @@ section:nth-child(even){
     width: 5rem;
     line-height: 4.5rem;
     font-size: 2rem;
-    color:var(--green);
+    color:#164da0d2;
     border-radius: .5rem;
-    border:var(--border);
+    border:.2rem solid #164da0d2;
     margin:.3rem;
 }
+
 
 .book .row{
     display: flex;
@@ -311,15 +296,13 @@ section:nth-child(even){
 .book .row form{
     flex:1 1 45rem;
     background: #fff;
-    border:var(--border);
-    box-shadow: var(--box-shadow);
     text-align: center;
     padding: 2rem;
     border-radius: .5rem;
 }
 
 .book .row form h3{
-    color:var(--black);
+    color:#444;
     padding-bottom: 1rem;
     font-size: 3rem;
 }
@@ -328,9 +311,9 @@ section:nth-child(even){
     width: 100%;
     margin:.7rem 0;
     border-radius: .5rem;
-    border:var(--border);
+    border:.2rem solid #164da0d2;
     font-size: 1.6rem;
-    color: var(--black);
+    color: #444;
     text-transform: none;
     padding: 1rem;
 }
@@ -346,8 +329,7 @@ section:nth-child(even){
 }
 
 .review .box-container .box{
-    border:var(--border);
-    box-shadow: var(--box-shadow);
+    border:.2rem solid #164da0d2;
     border-radius: .5rem;
     padding:2.5rem;
     background: #fff;
@@ -377,7 +359,7 @@ section:nth-child(even){
 }
 
 .review .box-container .box .text{
-    color:var(--light-color);
+    color:rgb(119, 119, 119);
     line-height: 1.8;
     font-size: 1.6rem;
     padding-top: 4rem;
@@ -388,7 +370,7 @@ section:nth-child(even){
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:var(--green);
+    background:#164da0d2;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
@@ -403,8 +385,7 @@ section:nth-child(even){
 }
 
 .blogs .box-container .box{
-    border:var(--border);
-    box-shadow: var(--box-shadow);
+    border:.2rem solid #164da0d2;
     border-radius: .5rem;
     padding: 2rem;
 }
@@ -434,29 +415,15 @@ section:nth-child(even){
 
 .blogs .box-container .box .content .icon a{
     font-size: 1.4rem;
-    color: var(--light-color);
+    color: rgb(119, 119, 119);
 }
 
-/* .blogs .box-container .box .content .icon a:hover{
-    color:var(--green);
-}
-
-.blogs .box-container .box .content .icon a i{
-    padding-right: .5rem;
-    color: var(--green);
-} */
 
 .blogs .box-container .box .content h3{
-    color:var(--black);
+    color:#444;
     font-size: 3rem;
 }
 
-/* .blogs .box-container .box .content p{
-    color:var(--light-color);
-    font-size: 1.5rem;
-    line-height: 1.8;
-    padding:1rem 0;
-} */
 
 .footer .box-container{
     display: grid;
@@ -466,20 +433,20 @@ section:nth-child(even){
 
 .footer .box-container .box h3{
     font-size: 2.5rem;
-    color:var(--black);
+    color:#444;
     padding: 1rem 0;
 }
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:rgb(119, 119, 119);
     padding: 1rem 0;
 }
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:var(--green);
+    color:#164da0d2;
 }
 
 .footer .credit{
@@ -488,20 +455,13 @@ section:nth-child(even){
     margin-top: 2rem;
     text-align: center;
     font-size: 2rem;
-    color:var(--light-color);
+    color:rgb(119, 119, 119);
     border-top: .1rem solid rgba(0, 0, 0, .1);
 }
 
 .footer .credit span{
-    color:var(--green);
+    color:#164da0d2;
 }
-
-
-
-
-
-
-
 
 
 /* media queries  */
@@ -531,9 +491,9 @@ section:nth-child(even){
         position: absolute;
         top:115%; right: 2rem;
         border-radius: .5rem;
-        box-shadow: var(--box-shadow);
+
         width: 30rem;
-        border: var(--border);
+        border: .2rem solid #164da0d2;
         background: #fff;
         transform: scale(0);
         opacity: 0;
